@@ -3,5 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2</TargetFramework>
   </PropertyGroup>
-
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
 </Project>
