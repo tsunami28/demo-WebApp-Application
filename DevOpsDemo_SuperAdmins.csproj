@@ -1,9 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
-  <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.App" />
-  </ItemGroup
-
-
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2</TargetFramework>
+  </PropertyGroup>
 
 </Project>
