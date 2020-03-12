@@ -14,12 +14,9 @@
       "sku": {
         "type": "string",
         "allowedValues": [
-          "Free",
-          "Shared",
-          "Basic",
-          "Standard"
+          "S1"
         ],
-        "defaultValue": "Free"
+        "defaultValue": "S1"
       },
       "workerSize": {
         "type": "string",
@@ -29,10 +26,6 @@
           "2"
         ],
         "defaultValue": "0"
-      },
-      "someAppSetting": {
-        "type": "string",
-        "defaultValue": "Test App Setting Value"
       },
       "repoUrl": {
         "type": "string"
